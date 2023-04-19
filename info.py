@@ -2,9 +2,6 @@ import re
 from os import environ
 from Script import script 
 from time import time
-from dotenv import load_dotenv
-
-# load_dotenv("./config.env")
 
 id_pattern = re.compile(r'^.\d+$')
 def is_enabled(value, default):
